@@ -1,0 +1,29 @@
+react-dom-client.development.js:24594 Download the React DevTools for a better development experience: https://react.dev/link/react-devtools
+websocket.ts:32 [HMR] connected
+hot-reloader-client.ts:311 [Fast Refresh] rebuilding
+hot-reloader-client.ts:250 [Fast Refresh] done in 52ms
+play.google.com/log?hasfast=true&authuser=0&format=json:1
+
+
+           Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+play.google.com/log?hasfast=true&authuser=0&format=json:1
+
+
+           Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+www.youtube.com/youtubei/v1/log_event?alt=json:1
+
+
+           Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+www.youtube.com/youtubei/v1/log_event?alt=json:1
+
+
+           Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+play.google.com/log?hasfast=true&authuser=0&format=json:1
+
+
+           Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+play.google.com/log?hasfast=true&authuser=0&format=json:1
+
+
+           Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+www.youtube.com/api/stats/qoe?fmt=243&cpn=5_BAtJkfJ28ZPyT6&el=embedded&ns=yt&fexp=v1%2C24004644%2C434717%2C127326%2C26443548%2C53408%2C34656%2C78212%2C27818%2C18644%2C9664%2C3382%2C1823%2C67190%2C8735%2C6544%2C20351%2C9252%2C1392%2C2087%2C690%2C12340%2C2975%2C2360%2C922%2C2967%2C2853%2C554%2C10575%2C238%2C645%2C2645%2C2746%2C8396%2C509%2C2%2C1014%2C886%2C733%2C391%2C272%2C2%2C1227%2C3294%2C913%2C6274%2C1082%2C4133%2C2193%2C795%2C2539&cl=735211760&seq=1&docid=V-6n4c0hrQs&ei=WoTRZ9mKHbDCmLAPrtqhmA0&event=streamingstats&plid=AAYwJLnN6f87WmmA&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2F%3Fautoplay%3D1%26controls%3D0%26disablekb%3D1%26fs%3D0%26modestbranding%3D1%26playsinline%3D1%26rel%3D0%26mute%3D0%26enablejsapi%3D1%26origin%3Dhttp%253A%252F%252Flocalhost%253A3000%26widgetid%3D2%26forigin%3Dhttp%253A%252F%252Flocalhost%253A3000%252F%26aoriginsup%3D1%26vf%3D6&cbr=Chrome&cbrver=134.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=1.20250309.00.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.008:B,0.199:B,0.199:B&cat=streaming&ctmp=noVp9:t.6;&cmt=0.008:0.000,0.199:0.000&vfs=0.199:243:243::r&view=0.199:323:1:1.5&bwe=0.199:4498057&bat=0.199:1:1&vis=0.199:0&bh=0.199:0.000&qclc=ChA1X0JBdEprZkoyOFpQeVQ2EAE:1

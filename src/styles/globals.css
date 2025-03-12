@@ -1,26 +1,265 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #22c55e;
+  --primary: #22c55e;
+  --primary-foreground: #000000;
+  --secondary: #065f46;
+  --secondary-foreground: #22c55e;
+  --muted: #0f172a;
+  --muted-foreground: #64748b;
+  --accent: #134e4a;
+  --accent-foreground: #22c55e;
+  --destructive: #ef4444;
+  --destructive-foreground: #f8fafc;
+  --border: #22c55e;
+  --input: #22c55e;
+  --ring: #22c55e;
+  --radius: 0.5rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Theme variations - Vibrant */
+[data-theme="green"] {
+  --background: #000000;
+  --foreground: #22c55e;
+  --primary: #22c55e;
+  --primary-foreground: #000000;
+  --secondary: #065f46;
+  --secondary-foreground: #22c55e;
+  --border: #22c55e;
+  --input: #22c55e;
+  --ring: #22c55e;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+[data-theme="blue"] {
+  --background: #000000;
+  --foreground: #3b82f6;
+  --primary: #3b82f6;
+  --primary-foreground: #000000;
+  --secondary: #1e40af;
+  --secondary-foreground: #3b82f6;
+  --border: #3b82f6;
+  --input: #3b82f6;
+  --ring: #3b82f6;
+}
+
+[data-theme="purple"] {
+  --background: #000000;
+  --foreground: #a855f7;
+  --primary: #a855f7;
+  --primary-foreground: #000000;
+  --secondary: #6b21a8;
+  --secondary-foreground: #a855f7;
+  --border: #a855f7;
+  --input: #a855f7;
+  --ring: #a855f7;
+}
+
+[data-theme="red"] {
+  --background: #000000;
+  --foreground: #ef4444;
+  --primary: #ef4444;
+  --primary-foreground: #000000;
+  --secondary: #991b1b;
+  --secondary-foreground: #ef4444;
+  --border: #ef4444;
+  --input: #ef4444;
+  --ring: #ef4444;
+}
+
+[data-theme="cyan"] {
+  --background: #000000;
+  --foreground: #06b6d4;
+  --primary: #06b6d4;
+  --primary-foreground: #000000;
+  --secondary: #0e7490;
+  --secondary-foreground: #06b6d4;
+  --border: #06b6d4;
+  --input: #06b6d4;
+  --ring: #06b6d4;
+}
+
+[data-theme="amber"] {
+  --background: #000000;
+  --foreground: #f59e0b;
+  --primary: #f59e0b;
+  --primary-foreground: #000000;
+  --secondary: #b45309;
+  --secondary-foreground: #f59e0b;
+  --border: #f59e0b;
+  --input: #f59e0b;
+  --ring: #f59e0b;
+}
+
+/* Theme variations - Muted */
+[data-theme="teal"] {
+  --background: #000000;
+  --foreground: #14b8a6;
+  --primary: #14b8a6;
+  --primary-foreground: #000000;
+  --secondary: #115e59;
+  --secondary-foreground: #14b8a6;
+  --border: #14b8a6;
+  --input: #14b8a6;
+  --ring: #14b8a6;
+}
+
+[data-theme="indigo"] {
+  --background: #000000;
+  --foreground: #6366f1;
+  --primary: #6366f1;
+  --primary-foreground: #000000;
+  --secondary: #4338ca;
+  --secondary-foreground: #6366f1;
+  --border: #6366f1;
+  --input: #6366f1;
+  --ring: #6366f1;
+}
+
+[data-theme="pink"] {
+  --background: #000000;
+  --foreground: #ec4899;
+  --primary: #ec4899;
+  --primary-foreground: #000000;
+  --secondary: #be185d;
+  --secondary-foreground: #ec4899;
+  --border: #ec4899;
+  --input: #ec4899;
+  --ring: #ec4899;
+}
+
+[data-theme="emerald"] {
+  --background: #000000;
+  --foreground: #10b981;
+  --primary: #10b981;
+  --primary-foreground: #000000;
+  --secondary: #047857;
+  --secondary-foreground: #10b981;
+  --border: #10b981;
+  --input: #10b981;
+  --ring: #10b981;
+}
+
+[data-theme="sky"] {
+  --background: #000000;
+  --foreground: #0ea5e9;
+  --primary: #0ea5e9;
+  --primary-foreground: #000000;
+  --secondary: #0369a1;
+  --secondary-foreground: #0ea5e9;
+  --border: #0ea5e9;
+  --input: #0ea5e9;
+  --ring: #0ea5e9;
+}
+
+[data-theme="violet"] {
+  --background: #000000;
+  --foreground: #8b5cf6;
+  --primary: #8b5cf6;
+  --primary-foreground: #000000;
+  --secondary: #6d28d9;
+  --secondary-foreground: #8b5cf6;
+  --border: #8b5cf6;
+  --input: #8b5cf6;
+  --ring: #8b5cf6;
+}
+
+[data-theme="rose"] {
+  --background: #000000;
+  --foreground: #f43f5e;
+  --primary: #f43f5e;
+  --primary-foreground: #000000;
+  --secondary: #be123c;
+  --secondary-foreground: #f43f5e;
+  --border: #f43f5e;
+  --input: #f43f5e;
+  --ring: #f43f5e;
+}
+
+/* Theme variations - Grayscale */
+[data-theme="gray"] {
+  --background: #000000;
+  --foreground: #6b7280;
+  --primary: #6b7280;
+  --primary-foreground: #000000;
+  --secondary: #374151;
+  --secondary-foreground: #6b7280;
+  --border: #6b7280;
+  --input: #6b7280;
+  --ring: #6b7280;
+}
+
+[data-theme="slate"] {
+  --background: #000000;
+  --foreground: #64748b;
+  --primary: #64748b;
+  --primary-foreground: #000000;
+  --secondary: #334155;
+  --secondary-foreground: #64748b;
+  --border: #64748b;
+  --input: #64748b;
+  --ring: #64748b;
+}
+
+[data-theme="zinc"] {
+  --background: #000000;
+  --foreground: #71717a;
+  --primary: #71717a;
+  --primary-foreground: #000000;
+  --secondary: #3f3f46;
+  --secondary-foreground: #71717a;
+  --border: #71717a;
+  --input: #71717a;
+  --ring: #71717a;
+}
+
+[data-theme="neutral"] {
+  --background: #000000;
+  --foreground: #737373;
+  --primary: #737373;
+  --primary-foreground: #000000;
+  --secondary: #404040;
+  --secondary-foreground: #737373;
+  --border: #737373;
+  --input: #737373;
+  --ring: #737373;
+}
+
+[data-theme="stone"] {
+  --background: #000000;
+  --foreground: #78716c;
+  --primary: #78716c;
+  --primary-foreground: #000000;
+  --secondary: #44403c;
+  --secondary-foreground: #78716c;
+  --border: #78716c;
+  --input: #78716c;
+  --ring: #78716c;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Space Mono", monospace;
+}
+
+/* Custom scrollbar for the playlist */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  opacity: 0.3;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+  opacity: 0.5;
 }
