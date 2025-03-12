@@ -1,44 +1,65 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# satori
 
-## Getting Started
+A modern and intuitive Pomodoro Web Application built with Next.js and TypeScript to help you focus, manage your tasks, and enjoy music while working — all wrapped in a sleek Tokyo-inspired UI. 🌆🈸
 
-First, run the development server:
+## Features ✨
+
+- ⏳ Pomodoro Timer with customizable focus and break intervals
+- ✅ Tasks List: Add, complete, and delete tasks effortlessly
+- 🎶 Music Player: Add YouTube links to a playlist, auto-play, pause, stop, adjust volume, and manage the queue
+- 🌆 Modern Tokyo Vibe UI: Minimalistic, neon-accented design that brings a calm and stylish aesthetic to your workflow
+- 🎨 Beautiful and responsive design powered by TailwindCSS and Radix UI components
+
+## Screenshots 🖼️
+
+![Screenshot of the satori website](assets/screenshots/satori.png)
+
+## Prerequisites 📋
+
+To build and run the project, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/en) (v18 or newer)
+- [npm](https://www.npmjs.com/) (v9 or newer, comes with Node.js)
+
+## Getting Started 🚀
+
+### 1. Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ git clone https://github.com/vilsonfcastilho/satori-web.git
+$ cd satori-web
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install the dependencies
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+$ npm install
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### 3. Run the application
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+```bash
+$ npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open `http://localhost:3000` to view it in your browser.
 
-## Learn More
+### 4. Build for production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+$ npm run build
+$ npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Dependencies 📦
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [`@radix-ui`](https://www.radix-ui.com/) - An open source component library optimized for fast development, easy maintenance, and accessibility.
+- [`lucide-react`](https://lucide.dev/guide/packages/lucide-react) - Implementation of the lucide icon library for react applications.
 
-## Deploy on Vercel
+## Contact 📧
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For any inquiries or feedback, feel free to reach out via GitHub or email.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-=======
-# satori-web
->>>>>>> 1aba6bbe839d2068355d450e9888c292cfcb1df1
+---
+
+Made with ♥ by Vilson Castilho
